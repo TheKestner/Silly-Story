@@ -27,7 +27,7 @@ newStory = newStory.replace(':inserty:', yItem);
 newStory = newStory.replace(':insertz:', zItem);
 
 if(customname.value !== '') {
-    const name = customName.value;
+    const name = customname.value;
     newStory = newStory.replace('Bob', name)
 }
 
